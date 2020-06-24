@@ -18,7 +18,7 @@ body{
 }
 
 #hometext {
-     font-size: 6rem;
+     font-size: 4rem;
      font-weight: 700;
      line-height: 1;
 }
@@ -44,11 +44,15 @@ p{
     font-weight: 300;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 600px) {
     #hometext {
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
     #blogdetailtitle {
         font-size: 5rem;
+    }
+    .dp{
+         width: 20rem;
+         height: 10rem;
     }
 }
