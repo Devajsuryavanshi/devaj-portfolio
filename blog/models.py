@@ -6,4 +6,4 @@ class Blog(models.Model):
     date = models. DateField()
     url = models.URLField()
     content = models.TextField()
-    image = models.ImageField(upload_to = 'blog_image', blank = true)
+    image = models.ImageField(upload_to = 'blog_image', blank = 'true')
